@@ -1,0 +1,57 @@
+:root {
+
+    --font-primary: 'segeo ui', sans-serif;
+    --font-secondary: 'segeo ui black', sans-serif;
+    --font-accent: 'segeo ui light', sans-serif;
+
+    --color-primary: #003f7d;
+    --color-primary-dark: #003366;
+    --color-dark: #002347;
+
+    --color-accent: #ff8e00;
+    --color-secondary: #fd7702;
+    --color-secondary-dark: #ff5003;
+
+    --color-black: #131313;
+    --color-white: #ebebeb;
+
+    --color-bg-primary: #ffeae1;
+    --color-bg-secondary: #d3d7ff;
+
+    --fontsize-primary: 2.5rem;
+    --fontsize-secondary: 2rem;
+    --fontsize-body: 1.5rem;
+    --fontsize-accent: .5rem;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: var(--fontsize-body);
+    background-color: var(--color-bg-primary);
+    color: var(--color-dark);
+}
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: var(--fontsize-primary);
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
+
+h2 {
+    font-size: var(--fontsize-secondary);
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
