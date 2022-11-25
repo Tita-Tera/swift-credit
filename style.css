@@ -1,7 +1,7 @@
 :root {
 
     --font-primary: 'segeo ui', sans-serif;
-    --font-secondary: 'segeo ui black', sans-serif;
+    --font-secondary: 'segeo black', sans-serif;
     --font-accent: 'segeo ui light', sans-serif;
 
     --color-primary: #003f7d;
@@ -15,12 +15,12 @@
     --color-black: #131313;
     --color-white: #ebebeb;
 
-    --color-bg-primary: #ffeae1;
+    --color-bg-primary: #fff6f2;
     --color-bg-secondary: #d3d7ff;
 
     --fontsize-primary: 2.5rem;
     --fontsize-secondary: 2rem;
-    --fontsize-body: 1.5rem;
+    --fontsize-body: 1rem;
     --fontsize-accent: .5rem;
     
 }
@@ -36,6 +36,8 @@ body {
     font-size: var(--fontsize-body);
     background-color: var(--color-bg-primary);
     color: var(--color-dark);
+    height: 100vh;
+    width: 100vw;
 }
 li,
 a {
@@ -45,13 +47,25 @@ a {
 }
 
 h1 {
-    font-size: var(--fontsize-primary);
+    font-size: var(--fontsize-secondary);
     font-family: var(--font-secondary);
-    color: var(--color-secondary);
+    color: var(--color-dark);
+    text-transform: capitalize;
+    font-weight: 700;
 }
 
 h2 {
     font-size: var(--fontsize-secondary);
     font-family: var(--font-secondary);
-    color: var(--color-secondary);
+    color: var(--color-primary-dark);
+    font-weight: 700;
+}
+
+.small {
+    font-size: medium !important;
+}
+
+/* Terms of service */
+.terms {
+    font-weight: 600;
 }
