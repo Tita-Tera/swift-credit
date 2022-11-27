@@ -80,3 +80,32 @@ h2 {
 .img-fluid {
     height: 6rem;
 }
+
+/* loan incement nad decrement */
+
+.wrapper {
+    height: auto;
+    max-width: 380px;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.wrapper span {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper span.num {
+    font-size: 50px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    padding: 0 1rem;
+}
